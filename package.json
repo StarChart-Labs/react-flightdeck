@@ -1,12 +1,12 @@
 {
   "name": "@starchart-labs/react-flightdeck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common React user interface components for use across StarChart applications",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rm -rf ./dist && npm run build",
-    "build": "webpack"
+    "build": "babel src -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -42,10 +42,6 @@
   },
   "author": "StarChart Labs Authors",
   "license": "EPL-2.0",
-  "files": [
-    "dist/index.js",
-    "dist/style.css"
-  ],
   "bugs": {
     "url": "https://github.com/StarChart-Labs/react-flightdeck/issues"
   },
