@@ -1,0 +1,64 @@
+.modal {
+  opacity: 0;
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: -100%;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  transition: opacity 0.33s, top 0s 0.33s;
+}
+.modal.open {
+  opacity: 1.0;
+  top: 0px;
+  transition: opacity 0.33s;
+}
+.modal-window {
+  top: -500px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 0;
+  max-width: 800px;
+  max-height: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  display: flex;
+  flex-direction: column;
+  transition: top 0s 0s;
+}
+
+.modal.open .modal-window {
+  top: 0px;
+  transition: top 0.33s;
+}
+.modal-title-bar {
+  font-size: 1.1rem;
+  padding: 15px;
+  font-weight: bold;
+}
+.close-modal-button {
+  float: right;
+  font-size: 1.3rem;
+}
+.close-modal-button:hover {
+  cursor: pointer;
+}
+.modal-content {
+  padding: 0 15px;
+  font-size: 0.9rem;
+  overflow-y: auto;
+}
+.modal-buttons {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 1.5rem;
+  align-items: center;
+}
+.modal-buttons button {
+  margin: 0px 5px;
+}

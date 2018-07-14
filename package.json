@@ -1,0 +1,49 @@
+{
+  "name": "react-flightdeck",
+  "version": "0.1.0",
+  "description": "Common React user interface components for use across StarChart applications",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "rm -rf ./dist && npm run build",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarChart-Labs/react-flightdeck.git"
+  },
+  "keywords": [
+    "ui",
+    "modal"
+  ],
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "style-loader": "^0.21.0"
+  },
+  "dependencies": {
+    "react-scripts": "1.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "@fortawesome/react-fontawesome": "^0.1.0"
+  },
+  "author": "StarChart Labs Authors",
+  "license": "EPL-2.0",
+  "bugs": {
+    "url": "https://github.com/StarChart-Labs/react-flightdeck/issues"
+  },
+  "homepage": "https://github.com/StarChart-Labs/react-flightdeck#readme"
+}
