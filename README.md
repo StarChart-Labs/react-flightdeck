@@ -1,5 +1,5 @@
 # react-flightdeck
-![npm (scoped)](https://img.shields.io/npm/v/@starchart-labs/react-flightdeck.svg) [![Build Status](https://travis-ci.org/StarChart-Labs/react-flightdeck.svg?branch=master)](https://travis-ci.org/StarChart-Labs/react-flightdeck) [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/repos/StarChart-Labs/react-flightdeck/branches/master/badge-risk.svg)](https://copilot.blackducksoftware.com/github/repos/StarChart-Labs/react-flightdeck/branches/master)
+[![npm (scoped)](https://img.shields.io/npm/v/@starchart-labs/react-flightdeck.svg)](https://www.npmjs.com/package/@starchart-labs/react-flightdeck) [![Build Status](https://travis-ci.org/StarChart-Labs/react-flightdeck.svg?branch=master)](https://travis-ci.org/StarChart-Labs/react-flightdeck) [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/repos/StarChart-Labs/react-flightdeck/branches/master/badge-risk.svg)](https://copilot.blackducksoftware.com/github/repos/StarChart-Labs/react-flightdeck/branches/master)
 
 Flightdeck is the collection of common user interface components that StarChart Labs
 uses across its various applications. This React library has fully functional and
